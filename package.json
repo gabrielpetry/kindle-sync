@@ -1,0 +1,30 @@
+{
+    "name": "kindle-sync",
+    "version": "1.0.0",
+    "author": "Gabriel Petry",
+    "description": "A simple app to monitor a folder and send ebook to kindle",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "electron .",
+        "dist": "electron-builder"
+    },
+    "build": {
+        "appId": "kindle-sync",
+        "mac": {
+            "category": "ebook"
+        }
+    },
+    "keywords": [
+        "kindle"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^11.3.0",
+        "electron-builder": "^22.9.1"
+    },
+    "dependencies": {
+        "chokidar": "^3.5.1",
+        "lowdb": "^1.0.0",
+        "nodemailer": "^6.4.18"
+    }
+}

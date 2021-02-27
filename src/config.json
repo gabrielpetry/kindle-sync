@@ -1,0 +1,8 @@
+{
+  "ebookPath": "D:/Bibliotecas/Livros/Ebooks",
+  "sender_email": "kindle@gabrielpetry.com.br",
+  "smtp_password": "123abc1",
+  "smtp_server": "smtp.kinghost.net",
+  "smtp_port": "465",
+  "receiver_email": "gabrielpetry@outlook.com"
+}
